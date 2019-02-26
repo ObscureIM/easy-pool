@@ -30,7 +30,7 @@ var server = app.listen(process.env.PORT || 8080, function () {
     console.log("App now running on port", port);
   })
 
-var url = 'http://pool.obscure.im:8117'
+var url = 'http://pool.obscure.im'
 app.get('/stats',function(req,res) {
   var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 

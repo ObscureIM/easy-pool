@@ -29,8 +29,22 @@
     "shelljs": "^0.8.1",
     "socket.io": "^2.1.1",
     "turtlecoin-rpc": "^0.8.9",
-    "forever": "^0.15.3",
-    "node-storage": "0.0.7"
+    "node-storage": "0.0.7",
+    "async": "1",
+    "base58-native": "*",
+    "bignum": "*",
+    "cli-color": "^1.4.0",
+    "dateformat": "*",
+    "express": "^4.1.0",
+    "forever": "^0.15.0",
+    "redis": "*",
+    "request": "^2.88.0",
+    "safe-buffer": "^5.1.2",
+    "turtlecoin-cryptonote-util": "0.0.6",
+    "turtlecoin-multi-hashing": "0.0.18",
+    "turtlecoin-utils": "0.0.2",
+    "xmlhttprequest": "^1.8.0"
+
   },
   "devDependencies": {
     "standard": "^11.0.1"
