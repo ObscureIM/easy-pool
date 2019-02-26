@@ -115,19 +115,24 @@ cp /path/to/obscure-service ./walletd-ha
 npm install
 
 //Starts the high availability daemon
-forever start ./Obscured-ha/service.js
+cd Obscured-ha
+node service.js
+cd ../
 
 //create a wallet container called container.walletd with password "password"
-./walletd-ha/obscure-service -w container.walletd -p password -g
+cd walletd-ha
+.obscure-service -w container.walletd -p password -g
 
 //starts the high availability wallet
-forever start ./walletd-ha/service.js
+node service.js
+cd../
 
 //starts the mining pool backend
-forever start ./node-obscure-pool/init.js
+cd node-obscure-pool
+node init.js
 
 //starts the mining pool front-end for ur workers
-forever start ./node-obscure-pool/server.js
+node server.js
 
 
 // DONE!
