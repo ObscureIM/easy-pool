@@ -121,7 +121,7 @@ cd ../
 
 //create a wallet container called container.walletd with password "password"
 cd walletd-ha
-.obscure-service -w container.walletd -p password -g
+/.obscure-service -w container.walletd -p password -g
 
 //starts the high availability wallet
 node service.js
