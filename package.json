@@ -1,0 +1,39 @@
+{
+  "name": "easy-pool",
+  "version": "1.0.0",
+  "description": "An fast to set-up pool for Obscure with front-end",
+  "main": "init.js",
+  "scripts": {
+    "test": "node init.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ObscureIM/easy-pool.git"
+  },
+  "keywords": [
+    "mining",
+    "pool",
+    "cryptonote",
+    "mining",
+    "currency"
+  ],
+  "author": "PausCrypto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ObscureIM/easy-pool/issues"
+  },
+  "dependencies": {
+    "node-pty": "^0.7.8",
+    "nonce": "^1.0.4",
+    "sha256": "^0.2.0",
+    "shelljs": "^0.8.1",
+    "socket.io": "^2.1.1",
+    "turtlecoin-rpc": "^0.8.9",
+    "forever": "^0.15.3",
+    "node-storage": "0.0.7"
+  },
+  "devDependencies": {
+    "standard": "^11.0.1"
+  },
+  "homepage": "https://github.com/ObscureIM/easy-pool#readme"
+}
